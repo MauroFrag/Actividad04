@@ -3,10 +3,14 @@ package cuentas;
 public class Main {
 
     public static void main(String[] args) {
-       
+       /**
+        * llamada del metodo estatico operativa_cuenta
+        */
     	operativa_cuenta();
     }
-
+    /**
+     * metodo estatico en donde se estancia un objeto de la clase CCuenta y se llama a varios metodos de la clase.
+     */
 	public static void operativa_cuenta() {
 		
 		float cantidad;
